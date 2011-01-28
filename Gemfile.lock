@@ -1,0 +1,48 @@
+GIT
+  remote: git://github.com/bf4/browsercms.git
+  revision: 6833ef0a1f560f917561b748ccd03a5715118089
+  ref: master
+  specs:
+    browsercms (3.1.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    actionmailer (2.3.5)
+      actionpack (= 2.3.5)
+    actionpack (2.3.5)
+      activesupport (= 2.3.5)
+      rack (~> 1.0.0)
+    activerecord (2.3.5)
+      activesupport (= 2.3.5)
+    activeresource (2.3.5)
+      activesupport (= 2.3.5)
+    activesupport (2.3.5)
+    git (1.2.5)
+    json_pure (1.4.6)
+    mysql (2.7)
+    rack (1.0.1)
+    rails (2.3.5)
+      actionmailer (= 2.3.5)
+      actionpack (= 2.3.5)
+      activerecord (= 2.3.5)
+      activeresource (= 2.3.5)
+      activesupport (= 2.3.5)
+      rake (>= 0.8.3)
+    rake (0.8.7)
+    rubyforge (2.0.4)
+      json_pure (>= 1.1.7)
+    technicalpickles-jeweler (1.2.1)
+      git (>= 1.2.1)
+      rubyforge
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  browsercms!
+  mysql (= 2.7)
+  rack (= 1.0.1)
+  rails (= 2.3.5)
+  rake (= 0.8.7)
+  technicalpickles-jeweler
