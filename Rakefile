@@ -23,13 +23,13 @@ require 'tasks/rails'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "bcms_news"
+    gemspec.name = "bf4-bcms_news"
     gemspec.rubyforge_project = "browsercms"
     gemspec.summary = "The News Module for BrowserCMS"
-    gemspec.email = "github@browsermedia.com"
+    gemspec.email = "dev@benjaminfleischer.com"
     gemspec.homepage = "http://browsercms.org"
-    gemspec.description = "The News Module for BrowserCMS"
-    gemspec.authors = ["BrowserMedia"]
+    gemspec.description = "The News Module for BrowserCMS. Fork along with bf4-browsercms to use better namespace for Task model, now Task Item.  When using as a gem, require 'bcms_news/routes'"
+    gemspec.authors = ["BrowserMedia", "Benjamin Fleischer"]
     gemspec.files = Dir["app/controllers/news_articles_controller.rb"]  
     gemspec.files += Dir["app/controllers/cms/news_articles_controller.rb"]
     gemspec.files += Dir["app/models/news_article.rb"]

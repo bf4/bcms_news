@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{bcms_news}
+  s.name = %q{bf4-bcms_news}
   s.version = "1.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["BrowserMedia"]
+  s.authors = ["BrowserMedia", "Benjamin Fleischer"]
   s.date = %q{2011-01-28}
-  s.description = %q{The News Module for BrowserCMS}
-  s.email = %q{github@browsermedia.com}
+  s.description = %q{The News Module for BrowserCMS. Fork along with bf4-browsercms to use better namespace for Task model, now Task Item.  When using as a gem, require 'bcms_news/routes'}
+  s.email = %q{dev@benjaminfleischer.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
      "README.markdown"
